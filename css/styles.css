@@ -11028,8 +11028,12 @@ p {
   font-size: 1.2rem;
 }
 
-@media (min-width: 400px) {
-  img {
-    position: relative;
-    z-index: 0;
-  }
+@media screen and (max-width:1024px){
+  img.responsive {width: 200px;}
+}
+
+@media screen and (min-width:1025px){
+  img.responsive{width: 300px;}
+}
+
+img.responsive{height: auto;}
