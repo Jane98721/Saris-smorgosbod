@@ -132,7 +132,7 @@ h1, .h1 {
 h2, .h2 {
   font-size: calc(1.325rem + 0.9vw);
 }
-@media (min-width: 800px) {
+@media (min-width: 1200px) {
   h2, .h2 {
     font-size: 2rem;
   }
@@ -11027,31 +11027,3 @@ p {
 .address strong {
   font-size: 1.2rem;
 }
-
-.img-fluid-round{
-  margin-left: 350px;
-}
-
-.product-item-description {
- margin-left:400px;
- margin-bottom: 70px;
-}
-
-.product-item-description-one {
-  margin-left:300px;
-
-}
-
-.product-item-description-two {
-  margin-left: 445px;
-}
-
-.product-item-description-three {
-  margin-left: 460px;
-  margin-bottom: 70px;
-}
-
-.product-item-description-four {
-  margin-left:310px;
-}
-
